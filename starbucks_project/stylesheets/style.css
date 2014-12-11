@@ -41,12 +41,12 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
-  background-color: #f26248; }
+  background-color: #F7F6E4; }
 
 .header {
-  width: 80%;
+  width: 85%;
   height: auto;
-  background-color: #259f92;
+  background-color: #6EA1A2;
   padding-bottom: 100px;
   margin-left: auto;
   margin-right: auto; }
@@ -116,11 +116,10 @@ body {
 .content {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: auto;
-  background-color: #F0F0AF; }
+  width: 85%;
+  height: auto; }
   .content .text {
-    background: url(../image/colorful-starbucks_00005174.jpg) no-repeat center;
+    background: url(../image/starbucks_love.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,42 +135,57 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 450px; }
+    top: 450px;
+    border-width: 20px;
+    border-color: #6EA1A2;
+    border-style: solid; }
 
 .text h1 {
-  font: 60px/65px bold Tenso;
-  color: #332717; }
+  font-size: 65px;
+  color: #6EA1A2;
+  font-kerning: tenso;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px; }
 
 .text h3 {
-  font: 40px/45px tenso;
-  color: #332717;
-  margin-top: 50px; }
+  font: 50px/55px tenso;
+  color: #fafefb;
+  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 20px; }
 
 .button {
   padding: 15px 10px;
-  background: #259f92;
+  background: #6EA1A2;
   color: #332717;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  width: 180px;
-  height: 40px;
+  width: 250px;
+  height: 50px;
   font-size: 25px;
   font-family: tenso;
   position: relative;
-  top: 50px; }
+  top: 60px;
+  margin-left: 20px; }
+  .button h3 {
+    font-size: 35px;
+    font-family: tenso;
+    position: relative;
+    bottom: 50px; }
 
 .button:hover {
   text-decoration: none;
   background: #cdbe97;
-  color: #fff; }
+  color: #fafefb; }
 
 .sale {
+  background-color: #204532;
   display: inline-block;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 150px; }
+  height: 600px; }
 
 .box {
   background: url(../image/coffecups.jpg) no-repeat center;
@@ -212,28 +226,47 @@ body {
 .box, .box1, .box2, .box3 {
   width: 550px;
   height: 400px;
-  display: inline-block;
-  background-color: #F0F0AF;
-  margin-left: 50px;
-  margin-top: 50px; }
+  float: left;
+  margin-left: 90px;
+  margin-top: 90px;
+  border-width: 20px;
+  border-color: #6EA1A2;
+  border-style: solid;
+  position: relative;
+  left: 10px; }
   .box P, .box1 P, .box2 P, .box3 P {
-    font-size: 40px;
+    font-size: 35px;
     font-family: tenso;
-    color: #332717; }
+    color: #6EA1A2;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .box P a, .box1 P a, .box2 P a, .box3 P a {
+      font-size: 35px;
+      font-family: tenso;
+      color: #fafefb; }
+  .box h6, .box1 h6, .box2 h6, .box3 h6 {
+    font: 25px/30px tenso;
+    color: #6EA1A2;
+    margin-top: 20px;
+    margin-left: 20px; }
 
 .socialandemail {
-  width: 80%;
-  background-color: #F0F0AF;
+  clear: left;
+  width: 85%;
+  height: 250px;
+  background-color: #6EA1A2;
   margin-left: auto;
   margin-right: auto; }
 
+hr {
+  width: 100%; }
+
 .footer {
-  width: 80%;
-  height: 300px;
-  background-color: #259f92;
+  clear: left;
+  width: 85%;
+  height: 250px;
+  background-color: #6EA1A2;
   margin-left: auto;
   margin-right: auto; }
-  .footer li a {
-    margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
