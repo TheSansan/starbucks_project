@@ -135,19 +135,19 @@ body {
   .text {
     text-align: center;
     padding: 40px 80px 40px 80px;
-    background-color: #F7F6E4;
+    background-color: lighten(#6EA1A2,10%);
     text-align: left;
     // padding: 20px;
     // margin-left: auto;
     // margin-right: auto;
     // position: relative;
      border-width: 10px;
-    border-color: darken(#6EA1A2, 20%);
+    border-color: #426768;
     border-style: solid;
     // position: relative;
     // top: 200px;
     position: absolute;
-     top: 60%;
+     top: 59%;
      left: 50%;
      transform: translate(-50%, -50%);
   }
@@ -155,7 +155,7 @@ body {
 
 .text h1 {
   font-size: 40px;
-  color: #426768;
+  color: darken(#426768,10%);
   font-family: tenso;
   font-weight: bold;
   // margin-top: 20px;
@@ -164,7 +164,7 @@ body {
 
 .text h3 {
   font: 25px/30px tenso;
-  color: #6EA1A2;
+  color: #F7F6E4;
   margin-top: 20px;
 }
 
@@ -291,7 +291,7 @@ body {
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
   }
-.communitytile {
+.communityimage {
       background: url(../image/starbucks_love.jpg) no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -300,13 +300,21 @@ body {
       margin-left: auto;
       margin-right: auto;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 190px;
+      padding-bottom: 190px;
+
+}
+.communitytile {
+      
+      padding-top: 50px;
       padding-bottom: 50px;
+      padding-left: 280px;
+      background-color: lighten(#6EA1A2,10%);
 
 
     h1 {
       font-size: 45px;
-      color: #426768;
+      color: darken(#426768,10%);
       font-family: tenso;
       font-weight: bold;
       margin-top: 50px;
@@ -314,7 +322,7 @@ body {
     }
     h3 {
       font-size: 30px;
-      color: #6EA1A2;
+      color: #F7F6E4;
       font-family: tenso;
       margin-top: 20px;
       margin-left: 20px;
@@ -326,7 +334,7 @@ body {
   background-color: lighten(#6EA1A2,10%);
   h3 {
     font-size: 25px;
-    color: darken(#426768,15%);
+    color: darken(#426768,10%);
     font-family: tenso;
     font-weight: bold;
 
@@ -337,7 +345,7 @@ form {
   padding: 50px 300px 10px 300px;
   h3 { 
     font-size: 25px;
-    color: darken(#426768,15%);
+    color: darken(#426768,10%);
     font-family: tenso;
     font-weight: bold;
   }
@@ -351,6 +359,56 @@ form {
 
   }
 }
+.historytext {
+    background-color: darken(#426768,20%);
+    .image{
+        background: url(../image/history_image.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 190px;
+        padding-bottom: 190px;
+      }
+
+
+    h1 {
+      font-size: 45px;
+      color: darken(#F7F6E4,3%);
+      font-family: tenso;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 30px;
+      color: #6EA1A2;
+      font-family: tenso;
+      margin-top: 20px;
+      margin-left: 20px;
+      }
+}
+.title {
+      padding: 50px 500px 50px 300px;
+    }
+.story {
+      padding-left: 300px;
+      padding-right: 500px;
+      padding-bottom: 140px;
+      h3 { 
+          font-size: 25px;
+          color: darken(#F7F6E4,3%);
+          font-family: tenso;
+          margin-top: 50px;
+
+
+
+      }
+}
+
+
 
 
 
