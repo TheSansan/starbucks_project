@@ -101,7 +101,7 @@ body {
   margin-right: auto;
   position: relative;
   left: 100px;
-  top: 10px;
+  top: 30px;
 }
 
 .icons a {
@@ -137,15 +137,9 @@ body {
     padding: 40px 80px 40px 80px;
     background-color: lighten(#6EA1A2,10%);
     text-align: left;
-    // padding: 20px;
-    // margin-left: auto;
-    // margin-right: auto;
-    // position: relative;
-     border-width: 10px;
+    border-width: 10px;
     border-color: #426768;
     border-style: solid;
-    // position: relative;
-    // top: 200px;
     position: absolute;
      top: 59%;
      left: 50%;
@@ -308,7 +302,7 @@ body {
       
       padding-top: 50px;
       padding-bottom: 50px;
-      padding-left: 280px;
+      padding-left: 100px;
       background-color: lighten(#6EA1A2,10%);
 
 
@@ -330,7 +324,7 @@ body {
 }
 #comments {
   margin: auto 0;
-  padding: 50px 300px;
+  padding: 50px 300px 50px 100px;
   background-color: lighten(#6EA1A2,10%);
   h3 {
     font-size: 25px;
@@ -341,8 +335,8 @@ body {
     }
 }
 form {
-  background-color:#877964 ;
-  padding: 50px 300px 10px 300px;
+  background-color:#F7F6E4 ;
+  padding: 50px 300px 10px 100px;
   h3 { 
     font-size: 25px;
     color: darken(#426768,10%);
@@ -360,7 +354,7 @@ form {
   }
 }
 .historytext {
-    background-color: darken(#426768,20%);
+    background-color: #F7F6E4;
     .image{
         background: url(../image/history_image.jpg) no-repeat center;
         -webkit-background-size: cover;
@@ -372,11 +366,9 @@ form {
         padding-top: 190px;
         padding-bottom: 190px;
       }
-
-
     h1 {
       font-size: 45px;
-      color: darken(#F7F6E4,3%);
+      color: darken(#426768,10%);
       font-family: tenso;
       font-weight: bold;
       margin-top: 50px;
@@ -384,30 +376,73 @@ form {
     }
     h3 {
       font-size: 30px;
-      color: #6EA1A2;
+      color: lighten(#426768,10%);
       font-family: tenso;
       margin-top: 20px;
       margin-left: 20px;
       }
 }
 .title {
-      padding: 50px 500px 50px 300px;
+      padding: 50px 300px 50px 100px;
     }
 .story {
-      padding-left: 300px;
-      padding-right: 500px;
+      padding-left: 100px;
+      padding-right: 300px;
       padding-bottom: 140px;
       h3 { 
-          font-size: 25px;
-          color: darken(#F7F6E4,3%);
+          font-size: 20px;
+          color: darken(#426768,10%);
           font-family: tenso;
           margin-top: 50px;
-
-
-
-      }
+        }
 }
+.coffeeimage {
+    background: url(../image/coffee.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 190px;
+    padding-bottom: 190px;
 
+}
+.coffeetile, .coffeeslection {
+    padding: 50px 300px 50px 100px;
+    background-color: darken(#877964,15%);
+    h1 {
+      font-size: 45px;
+      color: darken(#F7F6E4,3%);
+      font-family: tenso;
+      font-weight: bold;
+    }
+    h3 {
+        font-size: 25px;
+        color: lighten(#877964,20%);
+        font-family: tenso;
+        margin-top: 50px;
+    }
+}
+.coffeeslection {
+    h1 {
+      font-size: 25px;
+      color: darken(#F7F6E4,3%);
+      font-family: tenso;
+      
+
+    }
+}
+.roast {
+  padding: 70px 100px 70px 100px;
+  background-color: #F7F6E4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.coffeetext {
+  padding: 30px 30px 30px 30px;
+  background: darken(#877964,25%);
+}
 
 
 

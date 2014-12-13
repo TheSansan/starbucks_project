@@ -84,7 +84,7 @@ body {
   margin-right: auto;
   position: relative;
   left: 100px;
-  top: 10px; }
+  top: 30px; }
 
 .icons a {
   color: #fafefb;
@@ -238,7 +238,7 @@ body {
 .communitytile {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 280px;
+  padding-left: 100px;
   background-color: #8db5b6; }
   .communitytile h1 {
     font-size: 45px;
@@ -256,7 +256,7 @@ body {
 
 #comments {
   margin: auto 0;
-  padding: 50px 300px;
+  padding: 50px 300px 50px 100px;
   background-color: #8db5b6; }
   #comments h3 {
     font-size: 25px;
@@ -265,8 +265,8 @@ body {
     font-weight: bold; }
 
 form {
-  background-color: #877964;
-  padding: 50px 300px 10px 300px; }
+  background-color: #F7F6E4;
+  padding: 50px 300px 10px 100px; }
   form h3 {
     font-size: 25px;
     color: #2e4849;
@@ -280,7 +280,7 @@ form {
     margin-bottom: 30px; }
 
 .historytext {
-  background-color: #1a292a; }
+  background-color: #F7F6E4; }
   .historytext .image {
     background: url(../image/history_image.jpg) no-repeat center;
     -webkit-background-size: cover;
@@ -293,29 +293,69 @@ form {
     padding-bottom: 190px; }
   .historytext h1 {
     font-size: 45px;
-    color: #f4f2d8;
+    color: #2e4849;
     font-family: tenso;
     font-weight: bold;
     margin-top: 50px;
     margin-left: 20px; }
   .historytext h3 {
     font-size: 30px;
-    color: #6EA1A2;
+    color: #568687;
     font-family: tenso;
     margin-top: 20px;
     margin-left: 20px; }
 
 .title {
-  padding: 50px 500px 50px 300px; }
+  padding: 50px 300px 50px 100px; }
 
 .story {
-  padding-left: 300px;
-  padding-right: 500px;
+  padding-left: 100px;
+  padding-right: 300px;
   padding-bottom: 140px; }
   .story h3 {
-    font-size: 25px;
-    color: #f4f2d8;
+    font-size: 20px;
+    color: #2e4849;
     font-family: tenso;
     margin-top: 50px; }
+
+.coffeeimage {
+  background: url(../image/coffee.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 190px;
+  padding-bottom: 190px; }
+
+.coffeetile, .coffeeslection {
+  padding: 50px 300px 50px 100px;
+  background-color: #5b5243; }
+  .coffeetile h1, .coffeeslection h1 {
+    font-size: 45px;
+    color: #f4f2d8;
+    font-family: tenso;
+    font-weight: bold; }
+  .coffeetile h3, .coffeeslection h3 {
+    font-size: 25px;
+    color: #b5ab9c;
+    font-family: tenso;
+    margin-top: 50px; }
+
+.coffeeslection h1 {
+  font-size: 25px;
+  color: #f4f2d8;
+  font-family: tenso; }
+
+.roast {
+  padding: 70px 100px 70px 100px;
+  background-color: #F7F6E4;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.coffeetext {
+  padding: 30px 30px 30px 30px;
+  background: #3e372e; }
 
 /*# sourceMappingURL=style.css.map */
