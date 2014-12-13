@@ -44,7 +44,7 @@ body {
 
 .header {
   height: auto;
-  background-color: #6EA1A2;
+  background-color: #426768;
   padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto; }
@@ -94,7 +94,6 @@ body {
   color: #016435; }
 
 .part1 {
-  height: 750px;
   background: url(../image/starbuckshomepagenew.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -102,7 +101,8 @@ body {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  text-align: center; }
+  text-align: center;
+  padding: 450px 500px 450px 500px; }
 
 .content {
   margin-left: auto;
@@ -110,50 +110,43 @@ body {
   height: auto; }
   .content .text {
     text-align: center;
-    width: 360px;
-    height: 230px;
+    padding: 40px 80px 40px 80px;
     background-color: #F7F6E4;
     text-align: left;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     border-width: 10px;
-    border-color: #6EA1A2;
+    border-color: #426768;
     border-style: solid;
-    position: relative;
-    top: 170px; }
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .text h1 {
-  font-size: 35px;
-  color: #6EA1A2;
-  font-kerning: tenso;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-left: 20px; }
+  font-size: 40px;
+  color: #426768;
+  font-family: tenso;
+  font-weight: bold; }
 
 .text h3 {
-  font: 20px/25px tenso;
+  font: 25px/30px tenso;
   color: #6EA1A2;
-  margin-top: 20px;
-  margin-left: 20px; }
+  margin-top: 20px; }
 
 .button {
   padding: 5px 5px;
-  background: #6EA1A2;
+  background: #426768;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   width: 120px;
   height: 25px;
-  margin-top: 25px;
-  margin-left: 20px; }
+  margin-top: 25px; }
   .button h3 {
     font-size: 16px;
     font-family: tenso;
     color: #fafefb;
+    text-align: center;
     position: relative;
-    bottom: 20px;
-    right: 10px; }
+    bottom: 22px; }
 
 .button:hover {
   text-decoration: none;
@@ -171,12 +164,16 @@ body {
   .sale .box {
     max-width: 250px;
     display: inline-block;
-    margin: 25px; }
+    margin: 50px 50px 80px 50px; }
     .sale .box .link {
       text-align: left; }
       .sale .box .link a {
-        color: white;
-        text-decoration: none; }
+        color: #324e4f;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: tenso;
+        font-weight: bold;
+        margin-top: 20px; }
     .sale .box img {
       display: block;
       margin-left: auto;
@@ -189,15 +186,13 @@ body {
       margin-bottom: 25px; }
     .sale .box p {
       text-align: left;
-      font-size: 20px;
-      font-family: tenso; }
-      .sale .box p a {
-        font-size: 20px;
-        font-family: tenso;
-        color: #fafefb; }
+      font-size: 25px;
+      font-family: tenso;
+      color: #426768; }
     .sale .box h6 {
       font: 15px/20px tenso;
-      text-align: left; }
+      text-align: left;
+      margin-top: 30px; }
     .sale .box .saletext {
       color: #eee;
       height: 120px; }
@@ -212,46 +207,70 @@ body {
 .footer {
   clear: left;
   height: 150px;
-  background-color: #6EA1A2;
+  background-color: #426768;
   margin-left: auto;
   margin-right: auto; }
   .footer li a {
     margin-top: 55px; }
 
-#comments {
-  float: right;
-  height: 400px;
-  width: 400px;
-  padding: 15px;
-  margin: 15px;
-  background-color: rgba(0, 0, 0, 0.15);
-  color: #eee; }
+#comments article {
+  padding: 21px;
+  background: #F7F6E4;
+  border: 2px solid #426768;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* Border-radius not implemented yet */
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px; }
 
-.community {
+.communitytile {
   background: url(../image/starbucks_love.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  height: 560px; }
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .communitytile h1 {
+    font-size: 45px;
+    color: #426768;
+    font-family: tenso;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px; }
+  .communitytile h3 {
+    font-size: 30px;
+    color: #6EA1A2;
+    font-family: tenso;
+    margin-top: 20px;
+    margin-left: 20px; }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0; }
+#comments {
+  margin: auto 0;
+  padding: 50px 300px;
+  background-color: #8db5b6; }
+  #comments h3 {
+    font-size: 25px;
+    color: #243939;
+    font-family: tenso;
+    font-weight: bold; }
 
-.clearfix {
-  display: inline-block; }
-
-/* start commented backslash hack \*/
-* html .clearfix {
-  height: 1%; }
-
-.clearfix {
-  display: block; }
-
-/* close commented backslash hack */
+form {
+  background-color: #877964;
+  padding: 50px 300px 10px 300px; }
+  form h3 {
+    font-size: 25px;
+    color: #243939;
+    font-family: tenso;
+    font-weight: bold; }
+  form p {
+    font-size: 20px;
+    color: #426768;
+    font-family: tenso;
+    margin-top: 30px;
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
