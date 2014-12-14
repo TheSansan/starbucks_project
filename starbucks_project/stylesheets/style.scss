@@ -88,7 +88,7 @@ nav {
 .logo {
   height: 80px;
   width: 80px;
-  left: 100px;
+  left: 200px;
   top: 25px;
   position: absolute; 
 }
@@ -113,12 +113,15 @@ nav {
     display: inline-block;
     max-width: 400px;
     margin: 200px auto;
-    text-align: center;
-    padding: 20px;
-    background-color: #8db5b6;
-    border-width: 10px;
-    border-color: #426768;
-    border-style: solid; 
+    text-align: left;
+    padding: 50px 50px;
+    background-color: rgba(66, 103, 104, 0.9);
+    border-width: 5px;
+    border-color: #F7F6E4;
+    border-style: solid;
+    position: relative;
+    right: 30px; 
+    bottom: 20px;
   }
     .part1 .text .button {
       margin-left: auto;
@@ -133,24 +136,25 @@ nav {
 
 .text h1 {
   font-size: 40px;
-  color: #2e4849;
+  color: #F7F6E4;
   font-family: tenso;
   font-weight: bold; 
 }
 .text h3 {
   font: 25px/30px tenso;
-  color: #F7F6E4;
+  color: lighten(#F7F6E4,25%);
   margin-top: 20px; 
 }
 
 .button {
   padding: 5px 5px;
-  background: #426768;
+  background: darken(#426768,15%);
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   width: 120px;
   height: 25px;
-  margin-top: 25px; 
+  margin-top: 25px;
+  text-align: left;
 }
 .button h3 {
   font-size: 16px;
@@ -167,7 +171,7 @@ nav {
 }
 
 .sale {
-  background-color: #877964;
+  background-color: #F7F6E4;
   display: block;
   text-align: center;
   padding-top: 30px;
@@ -204,7 +208,7 @@ nav {
   line-height: 20px;
   text-align: left;
   padding-bottom: 5px;
-  color: #eee; 
+  color: #877964; 
 }
 .sale .box a.shop-now-link {
   color: #324e4f;
@@ -238,7 +242,7 @@ nav {
 }
 
 #community-content {
-  background-color: #8db5b6; 
+  background-color: #F7F6E4; 
   padding-bottom: 100px;
 }
   #community-content .row, .community-title {
@@ -297,7 +301,7 @@ time {
   margin-top: 100px;
   padding-bottom: 50px;
   padding-left: 100px;
-  background-color: #8db5b6; 
+
 }
   .communitytile h1 {
     font-size: 45px;
@@ -308,7 +312,7 @@ time {
   }
   .communitytile h3 {
     font-size: 30px;
-    color: #F7F6E4;
+    color: #568687;
     font-family: tenso;
     margin-top: 20px;
     margin-bottom: 20px; 
@@ -316,7 +320,8 @@ time {
 
 #comments {
   margin: auto 0;
-  background-color: #8db5b6; }
+  background-color: #F7F6E4; 
+}
   #comments h3 {
     margin-top: 100px;
     margin-bottom: 20px;
@@ -451,25 +456,25 @@ form {
 }
 .coffeetile h1 {
     font-size: 45px;
-    color: darken(#b5ab9c,53%);
+    color: #2e4849;
     font-weight: bold;
     padding-top: 100px; 
   }
 .coffeetile h3 {
     font-size: 25px;
-    color: #f4f2d8;
+    color: #568688;
     padding-top: 50px;
     padding-bottom: 50px; 
   }
 .coffeeslection h1 {
   font-size: 30px;
-  color: darken(#b5ab9c,53%);
+  color: #2e4849;
   font-weight: bold;
   padding-top: 50px;
   padding-bottom:50px; 
 }
 #coffee-content {
-  background-color:#5b5243; 
+  background-color:#F7F6E4; 
 }
   #coffee-content .row {
     padding: 0 15px;
@@ -478,7 +483,8 @@ form {
     margin-right: auto; }
 
 #community-content {
-  background-color: #8db5b6; }
+  background-color: #F7F6E4; 
+}
   #community-content .row {
     padding: 0 15px;
     max-width: 800px;
@@ -498,9 +504,10 @@ form {
   height: 300px; 
 }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-image {
-    border-radius: 15px 0 0 15px;
+    // border-radius: 15px 0 0 15px;
     float: left;
-    height: 100%; 
+    height: 100%;
+
 }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-image.right {
       float: right;
@@ -508,11 +515,12 @@ form {
 }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items {
     border-radius: 0 15px 15px 0;
-    background-color: #eee;
+    background-color: white;
     height: 100%;
     white-space: nowrap;
     overflow-x: scroll;
-    text-align: center; 
+    text-align: center;
+
   }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item {
       padding: 5px;
@@ -520,7 +528,24 @@ form {
       height: 100%;
       display: inline-table;
       width: 300px; 
+      .text-center{
+      margin: 20px;
+      font-size: 22px;
+      font-family: tenso;
+      color: #2e4849;
     }
+      p {
+      font-size: 16px;
+      font-family: tenso;
+      color: #2e4849;
+      margin: 20px;
+      text-align: left;
+    }
+
+  }
+  .coffee-list-item img{
+    margin-right: 100px;
+  }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item img {
         text-align: center;
         height: 150px;
@@ -550,7 +575,8 @@ form {
 }
 
 .teatile {
-  text-align: left; 
+  text-align: left;
+
 }
 .teatile h1 {
     font-size: 45px;
@@ -565,11 +591,15 @@ form {
     padding-bottom: 50px; 
   }
 
-.teatext p {
+.teatext {
+  margin-top: 100px;
+  p {
   font-size: 19px;
-  color: #F7F6E4;
-  line-height: -10px; 
+  color: #2e4849;
+  line-height: -10px;
+  }
 }
+
 .teatext .image-row {
   text-align: center; 
 }
@@ -587,6 +617,9 @@ form {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.teaslection {
+  margin-top: 50px;
+}
 
 .teaslection h1 {
   font-size: 45px;
@@ -602,7 +635,7 @@ form {
 }
 
 #tea-content {
-  background-color: #ab9f8d; }
+  background-color: #F7F6E4; }
   #tea-content .row {
     padding: 0 15px;
     max-width: 1050px;
@@ -610,12 +643,14 @@ form {
     margin-right: auto; }
 
 #community-content {
-  background-color: #8db5b6; }
+  background-color: #F7F6E4; 
+}
   #community-content .row {
     padding: 0 15px;
     max-width: 800px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto; 
+}
 
 .clearfix:after {
   visibility: hidden;
@@ -629,23 +664,46 @@ form {
 #tealistcheck .tea-list-container .tea-list-row {
   margin-top: 20px;
   height: 300px; 
+
 }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-image {
-    border-radius: 15px 0 0 15px;
     float: left;
-    height: 100%; 
+    height: 100%;
+    width: 355px;
+
+
 }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-image.right {
       float: right;
       border-radius: 0 15px 15px 0; 
+      position: relative;
+}
+.tea-list-item img {
+    margin-right: 100px;
 }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-items {
     border-radius: 0 15px 15px 0;
-    background-color: #eee;
     height: 100%;
     white-space: nowrap;
     overflow-x: scroll;
-    text-align: center; 
+    text-align: center;
+    background-color: white;
+    .text-center{
+      margin: 20px;
+      font-size: 22px;
+      font-family: tenso;
+      color: #2e4849;
+    }
+    p {
+      
+      font-size: 16px;
+      font-family: tenso;
+      color: #2e4849;
+      margin: 20px;
+
+      text-align: left;
+    }
+
   }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-items .tea-list-item {
       padding: 5px;
