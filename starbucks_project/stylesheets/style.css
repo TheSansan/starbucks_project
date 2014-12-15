@@ -101,7 +101,7 @@ nav a:hover {
   max-width: 400px;
   margin: 200px auto;
   text-align: left;
-  padding: 50px 50px;
+  padding: 50px;
   background-color: rgba(66, 103, 104, 0.9);
   border-width: 5px;
   border-color: #F7F6E4;
@@ -130,7 +130,7 @@ nav a:hover {
   margin-top: 20px; }
 
 .button {
-  padding: 5px 5px;
+  padding: 10px 10px;
   background: #243939;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -460,44 +460,42 @@ form p {
   float: left;
   height: 100%; }
 
-#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-image.right {
+.coffee-list-image.right {
   float: right;
   border-radius: 0 15px 15px 0; }
 
-#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items {
+.coffee-list-items {
   border-radius: 0 15px 15px 0;
   background-color: white;
   height: 100%;
   white-space: nowrap;
   overflow-x: scroll;
-  text-align: center; }
+  overflow-y: hidden; }
 
-#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item {
+.coffee-list-item {
   padding: 5px;
   white-space: normal;
   height: 100%;
   display: inline-table;
   width: 300px; }
-  #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item .text-center {
-    margin: 15px;
+  .coffee-list-item:first-of-type {
+    margin-left: 25px; }
+  .coffee-list-item .text-center {
+    margin: 10px;
     font-size: 20px;
     font-family: tenso;
     color: #2e4849; }
-  #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item p {
+  .coffee-list-item p {
     font-size: 15px;
     font-family: tenso;
     color: #2e4849;
-    margin: 10px;
+    margin: 5px;
     text-align: left; }
 
 .coffee-list-item img {
-  margin-right: auto;
-  margin-left: auto; }
-
-#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item img {
-  text-align: center;
-  height: 125px;
-  width: 125px;
+  text-align: left;
+  height: 100px;
+  width: 100px;
   border-radius: 50%; }
 
 .coffee-list-container {
@@ -548,8 +546,6 @@ form p {
   filter: grayscale(0.25);
   width: 250px;
   height: 250px;
-  margin-left: 22px;
-  margin-right: 22px;
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -721,13 +717,29 @@ form p {
   padding-bottom: 35px; }
 
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-item .coffee-icons img {
-  width: 30px;
-  height: 30px;
-  padding: 10px;
-  float: left; }
+  width: 15px;
+  height: 15px;
+  display: inline;
+  margin-right: 5px;
+  font-size: 15px;
+  color: #2e4849; }
 
-#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-item .coffee-icons p {
-  text-align: left;
-  font-size: 15px; }
+#tea-content .teatile h1, #tea-content .teatile h3, #tea-content .teatile p, #tea-content .teatext h1, #tea-content .teatext h3, #tea-content .teatext p {
+  max-width: 900px; }
+#tea-content .teatile .image-row img, #tea-content .teatext .image-row img {
+  position: relative;
+  right: 70px;
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.coffeetile h3 {
+  max-width: 900px; }
+
+.footer nav {
+  vertical-align: bottom;
+  text-align: center; }
+  .footer nav a {
+    color: #101a1a;
+    font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
