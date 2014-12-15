@@ -37,7 +37,8 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: 'Helvetica', 'Arial', sans-serif; }
+  font-family: tenso, 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5; }
 
 .container {
   margin-right: auto;
@@ -182,8 +183,7 @@ nav a:hover {
 .sale .box .box-title {
   text-align: left;
   font-size: 25px;
-  color: #426768;
-  min-height: 50px; }
+  color: #426768; }
 
 .sale .box .box-main-text {
   font-size: 15px;
@@ -470,7 +470,6 @@ form p {
   height: 100%;
   white-space: nowrap;
   overflow-x: scroll;
-  overflow-y: hidden;
   text-align: center; }
 
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item {
@@ -533,12 +532,9 @@ form p {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-.teatext {
-  margin-top: 100px; }
-  .teatext p {
-    font-size: 19px;
-    color: #2e4849;
-    line-height: -10px; }
+.teatext p {
+  font-size: 19px;
+  color: #2e4849; }
 
 .teatext .image-row {
   text-align: center; }
@@ -709,12 +705,29 @@ form p {
   min-height: 200px; }
 
 .community-icons {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-left: 15px;
   margin-right: 10px;
   position: relative;
   bottom: 5px;
   color: #426768; }
+
+.coffee-types, .tea-types {
+  font-size: 25px;
+  color: #2e4849;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 35px; }
+
+#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-item .coffee-icons img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  float: left; }
+
+#coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-item .coffee-icons p {
+  text-align: left;
+  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
