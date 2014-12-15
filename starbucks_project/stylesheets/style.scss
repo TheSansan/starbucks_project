@@ -62,7 +62,7 @@ body {
 
 .header {
   background-color: #426768;
-  padding-top: 90px; 
+  padding-top: 30px; 
 }
 
 nav {
@@ -80,6 +80,9 @@ nav {
     font-family: Tenso;
     font-size: 20px;
     text-decoration: none; 
+    padding-bottom: 30px;
+    // position: relative;
+    // bottom: 50px;
   }
     nav a:hover {
       color: #cdbe97; 
@@ -88,9 +91,6 @@ nav {
 .logo {
   height: 80px;
   width: 80px;
-  left: 200px;
-  top: 25px;
-  position: absolute; 
 }
   .logo a {
     color: #fafefb;
@@ -119,9 +119,8 @@ nav {
     border-width: 5px;
     border-color: #F7F6E4;
     border-style: solid;
-    position: relative;
-    right: 30px; 
-    bottom: 20px;
+     position: relative;
+     bottom: 20px;
   }
     .part1 .text .button {
       margin-left: auto;
@@ -222,7 +221,6 @@ nav {
   background-color: #877964;
   width: 100%;
   text-align: center;
-  padding: 20px; 
 }
 .socialandemail .socialmedia {
   display: inline-block; 
@@ -230,7 +228,8 @@ nav {
 .socialandemail .socialmedia a {
   font-size: 30px;
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
+  margin-left: 30px; 
 }
 
 .footer {
@@ -426,7 +425,8 @@ form {
   margin-left: auto;
   margin-right: auto;
   padding-top: 190px;
-  padding-bottom: 190px; }
+  padding-bottom: 190px; 
+}
 
 // .coffeetile, .coffeeslection {
 //   padding: 50px 300px 50px 100px;
@@ -519,6 +519,7 @@ form {
     height: 100%;
     white-space: nowrap;
     overflow-x: scroll;
+    overflow-y: hidden;
     text-align: center;
 
   }
@@ -528,28 +529,33 @@ form {
       height: 100%;
       display: inline-table;
       width: 300px; 
-      .text-center{
-      margin: 20px;
-      font-size: 22px;
+     .text-center{
+      margin: 15px;
+      font-size: 20px;
       font-family: tenso;
       color: #2e4849;
     }
-      p {
-      font-size: 16px;
+    p {
+      
+      font-size: 15px;
       font-family: tenso;
       color: #2e4849;
-      margin: 20px;
+      margin: 10px;
+
       text-align: left;
     }
 
   }
+
   .coffee-list-item img{
-    margin-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
   }
 #coffeelistcheck .coffee-list-container .coffee-list-row .coffee-list-items .coffee-list-item img {
         text-align: center;
-        height: 150px;
-        width: 150px; 
+        height: 125px;
+        width: 125px; 
+        border-radius: 50%;
 }
 .coffee-list-container {
   padding-bottom: 100px;
@@ -679,27 +685,29 @@ form {
       position: relative;
 }
 .tea-list-item img {
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-items {
     border-radius: 0 15px 15px 0;
     height: 100%;
     white-space: nowrap;
     overflow-x: scroll;
+    overflow-y: hidden;
     text-align: center;
     background-color: white;
     .text-center{
-      margin: 20px;
-      font-size: 22px;
+      margin: 15px;
+      font-size: 20px;
       font-family: tenso;
       color: #2e4849;
     }
     p {
       
-      font-size: 16px;
+      font-size: 15px;
       font-family: tenso;
       color: #2e4849;
-      margin: 20px;
+      margin: 10px;
 
       text-align: left;
     }
@@ -714,8 +722,9 @@ form {
     }
 #tealistcheck .tea-list-container .tea-list-row .tea-list-items .tea-list-item img {
         text-align: center;
-        height: 150px;
-        width: 150px; 
+        height: 125px;
+        width: 125px; 
+        border-radius: 50%;
 }
 .tea-list-container {
   padding-bottom: 100px;
