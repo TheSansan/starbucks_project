@@ -259,18 +259,23 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
   -moz-border-radius: 11px;
-  -webkit-border-radius: 11px; 
-  header a {
+  -webkit-border-radius: 11px; }
+  #comments article header a {
+    text-decoration: none;
     font-size: 19px;
     color: #2e4849;
-    font-family: tenso;
-  }
-  p{
-    font-size: 19px;
+    font-family: tenso; }
+  #comments article img {
+    width: 100%; }
+  #comments article p {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 23px;
     color: #2e4849;
-    font-family: tenso;
-  }
-}
+    font-family: tenso; }
+    #comments article p a {
+      text-decoration: none;
+      color: #426768; }
 time {
   font-size: 15px;
   color: #2e4849;
@@ -756,3 +761,50 @@ form {
   .article :nth-child(2) {
     margin-left: 100px; 
   }
+  .animated-gif {
+  width: 100%; 
+}
+  .comment-form {
+  position: relative;
+  padding: 15px; 
+}
+  .comment-form .post-comment {
+    float: right;
+    position: relative;
+    left: auto; 
+  }
+  .comment-form p {
+    padding-bottom: 20px; 
+  }
+  .comment-form label {
+    vertical-align: top;
+   }
+  .comment-form input {
+    position: absolute;
+    border: 1px solid gray;
+    height: 20px;
+    width: 200px;
+    border-radius: 3px;
+    left: 120px;
+    margin-bottom: 30px; 
+  }
+  .comment-form textarea {
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 3px;
+    min-height: 200px; 
+  }
+  .community-icons {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 5px;
+    color: #426768;
+  }
+  // img .coffee-icons {
+  //   width: 15px;
+  //   height: 15px;
+  // }
+  
