@@ -139,6 +139,7 @@ nav {
   color: #F7F6E4;
   font-family: tenso;
   font-weight: bold;
+  letter-spacing: 0.1em;
 
 }
 .text h3 {
@@ -237,16 +238,31 @@ nav {
   text-decoration: none;
   margin-left: 30px; 
 }
+.socialmedia a:hover {
+  color: #cdbe97;
+}
+
 .social-text{
   font-size: 18px;
-  color: lighten(#D9CEB2,10%);
+  color: darken(#D9CEB2,10%);
   padding-top: 10px;
   padding-bottom:10px;
-  max-width: 400px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-
-
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+}
+.social-text a {
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 20px;
+  color: #F7F6E4;
+  letter-spacing: 0.05em; 
+}
+.social-text a:hover {
+  color: #cdbe97;
 }
 
 .footer {
@@ -798,7 +814,7 @@ form {
     left: auto; 
   }
   .comment-form p {
-    padding-bottom: 20px; 
+    padding-bottom: 30px; 
   }
   .comment-form label {
     vertical-align: top;
@@ -887,10 +903,21 @@ margin-right: 20px;
     a{
     color: #fafefb;
     font-size: 15px;
+    padding-top: 30px;
   }
     a:hover {
       color: #cdbe97; 
     }
+ }
+ .post-comment {
+  background-color: #2e4849;
+  font-size: 20px;
+  font-family: tenso;
+  color: #fafefb;
+  // padding-top: 10px;
+  padding-bottom: 27px;
+
+
  }
 // #tea-content{
 //     .teatile{
